@@ -12,6 +12,13 @@ h2 {
   text-decoration: palevioletred wavy underline;
 }
 
+p {
+  color: #fff;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: palevioletred ;
+}
+
 .eyes {
   position: absolute;
   top: 50%;

@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #14495e;
+}
+
+.eyes {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+
+.eye {
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball {
+  width: 80px;
+  height: 80px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.face {
+  z-index: 0;
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  top: 56%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: palevioletred;
+  border-radius: 30%;
+}
+
+.nose {
+  z-index: 1;
+  position: absolute;
+  height: 80px;
+  width: 20px;
+  top: 60%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: black;
+}
+
+.mouth {
+  z-index: 1;
+  position: absolute;
+  height: 20px;
+  width: 80px;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: black;
+}
+
+.brow1 {
+  z-index: 1;
+  position: absolute;
+  height: 20px;
+  width: 90px;
+  top: 40%;
+  left: 40%;
+  transform: translateX(-50%) translateY(-50%) rotate(-20deg);
+  background: black;
+}
+
+.brow2 {
+  z-index: 1;
+  position: absolute;
+  height: 20px;
+  width: 90px;
+  top: 40%;
+  left: 60%;
+  transform: translateX(-50%) translateY(-50%) rotate(20deg);
+  background: black;
+}

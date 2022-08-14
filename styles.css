@@ -4,6 +4,11 @@ body {
   background: #14495e;
 }
 
+h2 {
+  color: #fff;
+  text-align: center;
+}
+
 .eyes {
   position: absolute;
   top: 50%;

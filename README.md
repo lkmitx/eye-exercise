@@ -15,6 +15,8 @@ This exercise illustrates the use of CSS and JavaScript to capture the onmousemo
 - Open the `index.html` file in your web browser.
 - Move your mouse pointer to make the eyes track its movement.
 
+You can also see a working demo <a href="https://lkmitx.github.io/eye-exercise/" target="_blank">here</a>.
+
 ## Roadmap of Future Improvements
 
 Further development of this repository could include the following:
